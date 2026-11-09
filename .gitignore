@@ -1,0 +1,8 @@
+__pycache__/
+node_modules/
+*.log
+.cache/
+demo/raw-screen.webm
+demo/narration.wav
+demo/narration_transcription_*
+demo/raw/

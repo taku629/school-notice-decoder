@@ -1,0 +1,69 @@
+1
+00:00:00,280 --> 00:00:04,320
+School notices can hide the next step
+in a wall of unfamiliar words.
+
+2
+00:00:04,320 --> 00:00:09,520
+School Notice Decoder turns a photo
+into a plan for multilingual families.
+
+3
+00:00:09,520 --> 00:00:12,460
+This is a fictional school notice.
+
+4
+00:00:12,460 --> 00:00:16,840
+Tesseract reads the image in the browser,
+and the parent can correct the text.
+
+5
+00:00:16,840 --> 00:00:21,280
+Before optional AI analysis,
+the student’s name is masked locally.
+
+6
+00:00:21,280 --> 00:00:24,060
+The exact outgoing text
+remains visible for review.
+
+7
+00:00:24,060 --> 00:00:29,820
+The no-key demo uses a clearly labeled sample engine,
+not a live AI response.
+
+8
+00:00:29,820 --> 00:00:33,640
+Here, Spanish instructions
+become checkable actions.
+
+9
+00:00:33,640 --> 00:00:35,900
+Every task links back to its source.
+
+10
+00:00:35,900 --> 00:00:38,220
+Calendar dates stay editable.
+
+11
+00:00:38,220 --> 00:00:43,420
+Only after a parent checks them can an all-day reminder
+file be downloaded. No timezone is guessed.
+
+12
+00:00:43,420 --> 00:00:45,680
+Gemini is optional.
+
+13
+00:00:45,680 --> 00:00:51,100
+The prototype allows synthetic, non-sensitive content only,
+and explains its free-tier data use.
+
+14
+00:00:51,100 --> 00:00:53,900
+The goal is not another translation.
+
+15
+00:00:53,900 --> 00:00:58,100
+It is a next step a family can inspect,
+understand, and act on.

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//School Notice Decoder//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2027-02-09-0-school-notice-decoder@local
+DTSTAMP:20261109T124803Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Entregar autorización firmada
+DESCRIPTION:Verify with the school. All-day reminder\; no timezone inferr
+ ed. Source: Please return the signed permission slip by Tuesday\, Februa
+ ry 9\,\n2027.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-12-1-school-notice-decoder@local
+DTSTAMP:20261109T124803Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Día de actividades
+DESCRIPTION:Verify with the school. All-day reminder\; no timezone inferr
+ ed. Source: Friday\, February 12\, 2027
+END:VEVENT
+END:VCALENDAR

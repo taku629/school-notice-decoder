@@ -1,0 +1,8 @@
+School notices can hide the next step in a wall of unfamiliar words.
+School Notice Decoder turns a photo into a plan for multilingual families.
+This is a fictional school notice. Tesseract reads the image in the browser, and the parent can correct the text.
+Before optional AI analysis, the student’s name is masked locally. The exact outgoing text remains visible for review.
+The no-key demo uses a clearly labeled sample engine, not a live AI response. Here, Spanish instructions become checkable actions. Every task links back to its source.
+Calendar dates stay editable. Only after a parent checks them can an all-day reminder file be downloaded. No timezone is guessed.
+Gemini is optional. The prototype allows synthetic, non-sensitive content only, and explains its free-tier data use.
+The goal is not another translation. It is a next step a family can inspect, understand, and act on.

@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "desktop has no horizontal overflow",
+    "browser OCR completes",
+    "real browser OCR reads sample student",
+    "local outgoing preview masks student name",
+    "sample engine creates 3 source-linked actions",
+    "sample engine is explicitly labeled",
+    "all action evidence matches source",
+    "two explicit dates survive source validation",
+    "calendar blocked before date confirmation",
+    "ICS contains two all-day events",
+    "ICS end dates are exclusive",
+    "no timezone inferred in calendar",
+    "date edits require reconfirmation",
+    "contact patterns masked",
+    "impossible or ungrounded dates excluded",
+    "app does not persist notice/key in web storage",
+    "real on-device neural Spanish translation works",
+    "browser-model actions preserve source evidence",
+    "optional connector transmits masked text only",
+    "outgoing edits revoke external-send consent",
+    "mobile has no horizontal overflow",
+    "no uncaught JavaScript errors",
+    "sample date weekdays verified: Tuesday / Friday"
+  ],
+  "browserTranslationTested": true,
+  "liveGeminiTested": false,
+  "note": "Gemini connector path tested with a mocked response only; no API key or real notice used."
+}
