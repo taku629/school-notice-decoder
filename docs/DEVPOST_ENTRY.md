@@ -17,7 +17,7 @@ Takumu Hata — solo participant (GitHub: taku629)
 ## Project story
 
 ### Inspiration
-A school notice is not just a paragraph to translate. It can contain a permission-slip deadline, a packing list and an event date—all of which a parent needs to act on. For multilingual families, an unfamiliar language or a photo-only message can add another layer of uncertainty. We wanted to turn “What does this say?” into “What should I do next?”
+A school notice is not just a paragraph to translate. It can contain a permission-slip deadline, a packing list and an event date—all of which a parent needs to act on. For multilingual families, an unfamiliar language or a photo-only message can add another layer of uncertainty. The goal is to turn “What does this say?” into “What should I do next?”
 
 ### What it does
 School Notice Decoder is a static web prototype that reads a notice image with browser-based OCR and lets the parent correct the text. It provides a visible local masking step and an exact preview of the text that an optional AI connector would receive.
@@ -28,14 +28,14 @@ The included fictional field-day notice demonstrates a signed permission-slip de
 
 For arbitrary synthetic English text, an additional on-device neural model can produce Spanish translation without an API key or sending notice text to a translation server. Local rules extract actions; local calendar extraction beyond the bundled sample is not supported. The first model download takes time and memory, and translations still require review.
 
-### How we built it
+### How it was built
 The project uses HTML, CSS and vanilla JavaScript, Tesseract.js for browser OCR, Transformers.js with the OPUS-MT English-to-Spanish model for optional local translation, and GitHub Pages for hosting. Local code masks labeled student-name lines, user-specified phrases and common contact patterns. AI output is treated as untrusted: source evidence is checked, invalid or unsupported dates are omitted, and calendar export requires human confirmation. The default demo has no API key or cash cost.
 
-### Challenges and what we learned
-A confident-looking summary can still be wrong. OCR can damage dates, masking can miss identities, and a calendar entry can imply more certainty than the notice supports. Our response was to make evidence and uncertainty visible, keep dates editable, and require an intentional export. The distinctive feature is the traceable action layer—not a claim that an AI can replace a school or a translator.
+### Challenges and design choices
+A confident-looking summary can still be wrong. OCR can damage dates, masking can miss identities, and a calendar entry can imply more certainty than the notice supports. The response was to make evidence and uncertainty visible, keep dates editable, and require an intentional export. The distinctive feature is the traceable action layer—not a claim that an AI can replace a school or a translator.
 
 ### What’s next
-We would test comprehension and task completion with multilingual parents and school staff, strengthen redaction and date handling, and evaluate translations before any real-world deployment. A production AI service would need a secure backend and stronger privacy controls.
+Next steps are to test comprehension and task completion with multilingual parents and school staff, strengthen redaction and date handling, and evaluate translations before any real-world deployment. A production AI service would need a secure backend and stronger privacy controls.
 
 This is a prototype. We do not claim measured accuracy, user-tested impact or complete anonymization. Only synthetic, non-sensitive content should be used; real school notices and personal or confidential data must not be sent to Gemini. OCR scripts and language data load remotely, so the app is not fully offline. Optional Gemini free-tier content may be used for product improvement and human review.
 

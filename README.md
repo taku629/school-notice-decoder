@@ -6,6 +6,8 @@ A student hackathon prototype for multilingual families: image â†’ browser OCR â
 
 **Live app:** https://taku629.github.io/school-notice-decoder/  
 **Source:** https://github.com/taku629/school-notice-decoder
+**Demo:** [58-second English narration + captioned screencast](https://taku629.github.io/school-notice-decoder/demo/school-notice-decoder-demo.mp4)  
+**Checks:** [Automated workflow test results](demo/test-results.json)
 
 ## Try it
 
